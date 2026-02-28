@@ -86,3 +86,9 @@ After completing the network setup, I launched an EC2 instance using Amazon Linu
 Finally, I connected to the EC2 instance using SSH and installed the Apache web server. I started the service and created a simple HTML page. Then I copied the public IP address of the instance and opened it in a web browser. The webpage was displayed successfully.
 
 So, this is how I created a VPC, launched an EC2 instance, and hosted a simple web server in AWS.
+
+Output Screenshots:
+<img width="1915" height="998" alt="Screenshot 2026-02-28 140822" src="https://github.com/user-attachments/assets/cbc18bfd-a9fa-4456-b1e4-e7fb22646fe4" />
+<img width="1905" height="997" alt="image" src="https://github.com/user-attachments/assets/226a4685-b948-499e-9d4c-469e1c615332" />
+
+
