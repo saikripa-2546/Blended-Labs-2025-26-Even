@@ -2,9 +2,8 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: SAI KRIPA SK
+* **Register Number**: 212224040284
 
 ---
 
@@ -83,37 +82,33 @@ Install and start a web server (Apache HTTPD) on the EC2 instance using user dat
 
 Create a simple HTML page and verify that it can be accessed from a web browser using the public IP address of the instance.---
 
-## Workflow (Student Explanation)
+## Workflow 
 
-(Write the steps you followed in your own words)
+1.Create a VPC using the VPC wizard with public & private subnets, Internet Gateway, NAT Gateway, and route tables.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+2.Add additional subnets in a second Availability Zone and associate them with the appropriate route tables.
 
----
+3.Create a Security Group allowing HTTP (port 80) access from Anywhere (IPv4).
+
+4.Launch an EC2 instance in the public subnet, attach the security group, enable auto-assign public IP, and add user data to install Apache.
+
+5.Verify the deployment by accessing the instance’s Public DNS in a browser and confirming the web page loads successfully.
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: VPC and Subnet Details
 
-(Insert Screenshot Here)
-
----
+<img width="1918" height="1032" alt="image" src="https://github.com/user-attachments/assets/70ac05f8-d1c7-406d-86f1-f1b09a796df6" />
 
 ### Screenshot 2: EC2 Instance Running
 
-(Insert Screenshot Here)
+<img width="1918" height="986" alt="image" src="https://github.com/user-attachments/assets/3b3ab4a1-8bc3-42bf-bbe6-9523280105ff" />
+<img width="1912" height="1031" alt="image" src="https://github.com/user-attachments/assets/ec201aab-5a23-4043-8ea2-c16f9cbcb50e" />
 
----
 
 ### Screenshot 3: Web Server Output in Browser
+<img width="1907" height="1007" alt="image" src="https://github.com/user-attachments/assets/4f22626d-e9fc-4266-80a9-9f01340d67f9" />
 
-(Insert Screenshot Here)
-
----
 
 ## Result 
 
