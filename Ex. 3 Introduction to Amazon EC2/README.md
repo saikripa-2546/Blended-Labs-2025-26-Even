@@ -2,10 +2,8 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
-
+* **Name**: SAI KRIPA SK
+* **Register Number**: 212224040284
 ---
 
 ## Objective
@@ -94,37 +92,36 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ---
 
-## Workflow (Student Explanation)
+## Workflow 
+1.Launch an EC2 instance (Amazon Linux 2023, t2.micro) with termination protection enabled and configure user data to install a web server.
 
-(Write the steps you followed in your own words)
+2.Monitor the instance using Status Checks, CloudWatch Monitoring tab, system logs, and instance screenshot.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+3.Update the Security Group to allow HTTP (port 80) inbound traffic and verify web server access via Public IP.
 
----
+4.Resize the instance by stopping it, changing instance type (t2.micro → t2.small), enabling stop protection, and increasing EBS volume (8 GiB → 10 GiB).
+
+5.Test stop protection & explore limits by checking EC2 service quotas, attempting to stop the instance, disabling stop protection, and stopping the instance successfully.
+
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EC2 Dashboard / Instance List
 
-(Insert Screenshot Here)
+<img width="1918" height="1027" alt="image" src="https://github.com/user-attachments/assets/1da12b6d-c710-41ee-80aa-977b33ae9b55" />
 
----
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
+<img width="1907" height="995" alt="image" src="https://github.com/user-attachments/assets/b5a51296-39be-4eda-a84f-aac4aa9579f2" />
+<img width="1916" height="1033" alt="image" src="https://github.com/user-attachments/assets/f37afd2a-3458-4728-add9-a9e511205234" />
 
----
 
 ### Screenshot 3: Instance Monitoring / Status
 
-(Insert Screenshot Here)
+<img width="1621" height="911" alt="image" src="https://github.com/user-attachments/assets/3c9d86eb-b8e0-42fd-8023-28e7bf2a9b71" />
+<img width="1916" height="1090" alt="image" src="https://github.com/user-attachments/assets/c4b11fdd-2489-4369-9905-c037476a652b" />
 
----
 
 ## Result 
 
