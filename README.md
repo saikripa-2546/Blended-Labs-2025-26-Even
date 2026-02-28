@@ -6,8 +6,6 @@ Name:SAI KRIPA SK
 
 Register Number: 212224040284
 
-Date of Submission:28/02/2026
-
 # Objective
 
 The objective of this experiment is to understand how to design and configure a basic network infrastructure in AWS using a Virtual Private Cloud (VPC). This lab focuses on creating a VPC with a public subnet, configuring an Internet Gateway and route table, launching an EC2 instance, and hosting a simple web server that can be accessed over the internet.
