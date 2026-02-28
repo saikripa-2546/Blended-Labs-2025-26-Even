@@ -3,7 +3,6 @@
 ## Title
 Introduction to AWS Identity and Access Management (IAM)
 
-
 ## Objective
 The objective of this lab is to understand how AWS Identity and Access Management (IAM) controls authentication and authorization in AWS. The lab focuses on exploring IAM users and groups, analyzing attached policies, assigning users to appropriate groups based on organizational roles, and validating permissions by testing service access.
 
@@ -27,23 +26,26 @@ The objective of this lab is to understand how AWS Identity and Access Managemen
 - Reviewed pre-created IAM users: user-1, user-2, user-3  
 - Explored IAM groups: EC2-Admin, EC2-Support, S3-Support  
 - Inspected managed and inline policies attached to groups  
-**Screenshot:**  
-(Add screenshot here)
+
 
 ### Task 2: Add Users to Groups
 - Added user-1 to the S3-Support group  
 - Added user-2 to the EC2-Support group  
-- Added user-3 to the EC2-Admin group  
+- Added user-3 to the EC2-Admin group
+  
 **Screenshot:**  
-(Add screenshot here)
+<img width="1915" height="998" alt="Screenshot 2026-02-28 140822" src="https://github.com/user-attachments/assets/7c3e55bb-099d-4103-8138-f12e7829b21d" />
+
 
 ### Task 3: Test IAM User Permissions
 - Logged in using IAM sign-in URL  
 - Verified S3 access for user-1  
 - Verified EC2 read-only access for user-2  
-- Verified EC2 administrative access for user-3  
+- Verified EC2 administrative access for user-3
+  
 **Screenshot:**  
-(Add screenshot here)
+<img width="1905" height="998" alt="Screenshot 2026-02-28 141428" src="https://github.com/user-attachments/assets/ca34fc4a-9cb7-4559-ba42-d5c30d0a1d08" />
+
 
 
 ## Workflow
@@ -58,7 +60,8 @@ The objective of this lab is to understand how AWS Identity and Access Managemen
 - Understood the role of IAM in AWS security.  
 - Learned how IAM users, groups, and policies interact.  
 - Gained practical experience implementing role-based access control.  
-- Verified permission enforcement through real-time service testing.  
+- Verified permission enforcement through real-time service testing.
+
 
 
 ## Conclusion
@@ -66,6 +69,6 @@ This lab provided hands-on experience with AWS IAM by demonstrating how organiza
 
 
 ## Author
-**Name:** Your Name and (Reg No)
+**Name:** SAI KRIPA SK 212224040284
 **Course:** Introduction to Cloud Computing  
 
