@@ -2,7 +2,7 @@
 
 Build Your VPC and Launch a Web Server (AWS)
 Author
-Name:DHARSHINI V
+Name:SAI KRIPA SK
 Register Number: 212224040284
 Date of Submission:28/02/2026
 Objective
